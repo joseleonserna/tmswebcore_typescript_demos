@@ -1,0 +1,327 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+		<title>TMS Software | Support</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="description" content="Components for software development with Embarcadero Delphi, C++Builder and Microsoft Visual Studio" />
+	<meta name="author" content="TMS Software" />
+	<meta name="robots" content="index, follow" />
+	<meta property="og:title" content="TMS Software" />
+	<meta property="og:description" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="https://www.tmssoftware.com/site/css/master.css?v=2" type="text/css" />
+	<link rel="stylesheet" href="https://www.tmssoftware.com/site/css/custom.css?v=2" type="text/css" />
+
+	<meta name="Copyright" content="(c) 2008-2017 Copyright: TMS Software" />
+	<meta name="Keywords" content="VCL,.NET,GRID,PLANNER,SCHEDULING,INTRAWEB,EMBARCADERO,DELPHI,C++BUILDER,VISUAL STUDIO,FREE,WEB APPLICATIONS,ASP.NET,WINDOWS CE,EXCEL,DIAGRAM,SCRIPTING,SCRIPTER,QUERY,IPHONE,IPAD,FIREMONKEY" />
+
+</head>
+<body>
+
+
+	<header class="small">
+		<div class="bg-dark">
+			<nav class="navbar nav-utilities color-white">
+				<div class="container-fluid">
+
+					<!--
+					&nbsp;<img id="maicon" src="img/arrow_down.png" style="cursor:pointer;margin-top:10px;margin-right:10px;" onclick="showMA(event, this);">
+					-->
+
+					<div class="navbar-header">
+						<p>Welcome</p>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#" title="" target="_blank"><i class="glyphicon glyphicon-shopping-cart"></i>my cart</a></li>
+						<li><a href="#" title=""><i class="glyphicon glyphicon-user"></i>account</a></li>
+					</ul>
+
+				</div>
+			</nav>
+		</div>
+		<nav class="navbar nav-main navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="https://www.tmssoftware.com/site/default.asp?s=home" class="navbar-brand">
+						<img src="https://www.tmssoftware.com/site/img/logo_tms_software.png" class="logo-big" width="303" height="37" alt="TMS Software" />
+						<img src="https://www.tmssoftware.com/site/img/logo_tms_software_small.png" class="logo-small" width="71" height="32" alt="TMS Software" />
+					</a>
+				</div>
+				<form class="navbar-form nav-search navbar-right" role="search" action="searchindex.asp" method="post" name="search" id="search">
+					<fieldset>
+						<input type="text" id="KW" name="KW" placeholder="Search terms"/>
+						<button class="button-search" onClick="setSearch(this.form)">Search</button>
+					</fieldset>
+				</form>
+				<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#" onclick="toggleQuicklinks(event)" data-toggle="collapse" data-target=".navbar-collapse.in">Products</a></li>
+						<li><a href="https://www.tmssoftware.com/site/blog.asp">Blog</a></li>
+						<li><a href="https://www.tmssoftware.com/site/news.asp">News</a></li>
+						<li><a href="https://www.tmssoftware.com/site/about.asp">About</a></li>
+						<li><a href="https://www.tmssoftware.com/site/support.asp">Support</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section class="product-header quicklinks-header" style="padding:0px;margin:0px;height:0px;z-index:999">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-9">
+				</div>
+
+				<div class="col-sm-3 tms-quicklinks-container container-fluid">
+					<!--
+					<p><a class="btn btn-primary btn-block" href="#" title="Quicklinks" role="button">Quicklinks<i class="tms-btn-dot"></i></a></p>
+					-->
+					<div class="tms-quicklinks">
+						<div class="container-fluid">
+							<div class="row">
+								<h3><i class="glyphicon glyphicon-arrow-right"></i><a href="tmsallaccess.asp">TMS ALL-ACCESS</a></h3>
+								<hr/>
+							</div>
+							<div class="row">
+								<div class="col-sm-4">
+									<span class="sublink" href="#">Grids</span>
+									<ul>
+										<li><a href="advgrid2.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL Grid</a></li>
+										<li><a href="tmsfmxpack.asp?s=fmxgrid"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX Grid</a></li>
+										<li><a href="tmsfncuipack.asp?s=fncgrid"><i class="glyphicon glyphicon-one-fine-dot"></i> FNC Grid</a></li>
+										<li><a href="tmsiwprose.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> IW Grid</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-4">
+									<span class="sublink">Planners</span>
+									<ul>
+										<li><a href="dbplanner.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL Planner</a></li>
+										<li><a href="tmsfmxpack.asp?s=fmxplanner"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX Planner</a></li>
+										<li><a href="tmsfncuipack.asp?s=fncplanner"><i class="glyphicon glyphicon-one-fine-dot"></i> FNC Planner</a></li>
+										<li><a href="tmsiwplan.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> IW Planner</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-4">
+									<span class="sublink">Charts</span>
+									<ul>
+										<li><a href="advchart.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL Charts</a></li>
+										<li><a href="tmsfmxchart.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX Charts</a></li>
+										<li><a href="tmsfncchart.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> FNC Charts</a></li>
+										<li><a href="tmsiwadvchart.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> IW Charts</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-sm-4">
+									<span class="sublink">Excel Reporting</span>
+									<ul>
+										<li><a href="flexcel.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL Flexcel</a></li>
+										<li><a href="flexcelnet.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> .NET Flexcel</a></li>
+										<li><a href="flexceldll.asp"><i class="glyphicon glyphicon-one-fine-dot"></i>  Flexcel DLL</a></li>
+									</ul>
+								</div>
+
+								<div class="col-sm-4">
+									<span class="sublink">Mapping</span>
+									<ul>
+										<li><a href="webgmaps.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL Maps</a></li>
+										<li><a href="tmsfmxwebgmaps.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX Maps</a></li>
+										<li><a href="iwwebgmaps.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> IW Maps</a></li>
+									</ul>
+								</div>
+								<div class="col-sm-4">
+									<span class="sublink">RichEditors</span>
+									<ul>
+										<li><a href="AdvRichEditor.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL RichEditor</a></li>
+										<li><a href="tmsfmxpack.asp?s=fmxricheditor"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX RichEditor</a></li>
+										<li><a href="tmsfncuipack.asp?s=fncricheditor"><i class="glyphicon glyphicon-one-fine-dot"></i> FNC RichEditor</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="row">
+
+								<div class="col-sm-4">
+									<span class="sublink">Business Tools</span>
+									<ul>
+										<li><a href="aurelius.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> ORM (Aurelius)</a></li>
+										<li><a href="xdata.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> REST/JSON</a></li>
+										<li><a href="scriptstudiopro.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> Scripter</a></li>
+										<li><a href="remotedb.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> Remote DB access</a></li>
+										<li><a href="tmsecho.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> Data replication</a></li>
+										<li><a href="workflow.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> Workflow</a></li>
+									</ul>
+								</div>
+
+								<div class="col-sm-4">
+									<span class="sublink">UI Libraries</span>
+									<ul>
+										<li><a href="tmspack.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL UI Pack</a></li>
+										<li><a href="tmsfmxpack.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX UI Pack</a></li>
+										<li><a href="tmsfncuipack.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> FNC UI Pack</a></li>
+										<li><a href="tmsiwprose.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> IW UI Pack</a></li>
+									</ul>
+								</div>
+
+								<div class="col-sm-4">
+									<span class="sublink">Cloud service access</span>
+									<ul>
+										<li><a href="cloudpack.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> VCL Cloud</a></li>
+										<li><a href="tmsfmxcloudpack.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> FMX Cloud</a></li>
+										<li><a href="tmslclcloudpack.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> LCL Cloud</a></li>
+										<li><a href="tmscloudnet.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> .NET Cloud</a></li>
+										<li><a href="myclouddata.asp"><i class="glyphicon glyphicon-one-fine-dot"></i> DB in the Cloud</a></li>
+									</ul>
+								</div>
+
+							</div>
+							<div class="row">
+								<hr/>
+							</div>
+							<div class="row">
+								<h3 style="margin-top:10px;margin-bottom:0px;float:left;"><i class="glyphicon glyphicon-arrow-right"></i><a href="products.asp">ALL PRODUCTS&nbsp;</a></h3>
+								<h3 style="margin-top:10px;margin-bottom:0px;float:right;"><i class="glyphicon glyphicon-arrow-right"></i><a href="tags.asp">SEARCH BY TAGS</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="headerpush"></div>
+
+
+	<div class="breadcrumbs bg-light">
+		<div class="container-fluid">
+			<ol class="breadcrumb">
+				<li><a href="./">Home</a></li>
+				<li class="active">WEB Sample</li>
+			</ol>
+		</div>
+	</div>
+
+	<section class="recently-viewed">
+		<div class="container-fluid">
+			<div class="row">
+				<h3 class="col-sm-12">Hello World</h3>
+			</div>
+			<br/>
+			<br/>
+			<div class="row">
+
+					<div class="col-md-3 col-sm-4">
+
+						<div class="panel panel-recent tms-product tms-product-black">
+							<div class="panel-body">
+								<span><input type="TEXT" id="edt">
+								<button type="BUTTON" id="btn">Add</button>
+								</span><br>
+								<i class="tms-panel-border"></i>
+								<i class="tms-btn-dot"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-4">
+
+						<div class="panel panel-recent tms-product tms-product-black">
+							<div class="panel-body">
+						        <textarea id="mem" style="width:150px;height:150px"></textarea><br>
+								<select id="sel" style="width:150px;"></select><br>
+								<i class="tms-panel-border"></i>
+								<i class="tms-btn-dot"></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-4">
+						<div class="panel panel-recent tms-product tms-product-black">
+							<div class="panel-body">
+								<table><tr><td>Selected value:</td><td><div id="lbl"><span></span></div></td></tr></table>
+								<i class="tms-panel-border"></i>
+								<i class="tms-btn-dot"></i>
+							</div>
+						</div>
+					</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer class="bg-light">
+		<section class="sitemap container-fluid">
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<a href="" class="logo">
+						<img src="https://www.tmssoftware.com/site/img/logo_tms_software.png" width="187" height="23" alt="TMS Software" />
+					</a>
+					<p>Roeselarestraat 180 <br/>8560 Wevelgem - Belgium</p>
+					<p>For sales questions <br/><a href="mailto:sales@tmssoftware.com" title="Mail us">sales@tmssoftware.com</a></p>
+					<p>Copyright &copy; 1995 - 2017 TMS Software v5.0</p><br/>
+				</div>
+				<div class="col-md-2 col-sm-6">
+					<span class="sitemap-title">TMS Software</span>
+					<ul class="list">
+						<li><a href="https://www.tmssoftware.com/site/blog.asp">Blog</a></li>
+						<li><a href="https://www.tmssoftware.com/site/news.asp">News</a></li>
+						<li><a href="https://www.tmssoftware.com/site/about.asp">About</a></li>
+						<li><a href="https://www.tmssoftware.com/site/support.asp">Support</a></li>
+						<li><a href="https://www.tmssoftware.com/site/consulting.asp">Consulting</a></li>
+						<li><a href="https://www.tmssoftware.com/site/sitemap.asp">Sitemap</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<span class="sitemap-title">Products</span>
+					<ul class="list">
+						<li><a href="https://www.tmssoftware.com/site/pricelist.asp">Pricelist</a></li>
+						<li><a href="https://www.tmssoftware.com/site/orders.asp">Online Orders</a></li>
+						<li><a href="https://www.tmssoftware.com/site/licensing.asp">Licensing</a></li>
+						<li><a href="https://www.tmssoftware.com/site/manuals.asp">Manuals</a></li>
+						<li><a href="https://www.tmssoftware.com/site/support_faq.asp">FAQ</a></li>
+						<li><a href="https://www.tmssoftware.com/site/forum.asp">Forum</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<span class="sitemap-title">Stay in touch</span>
+					<p>Add your e-mail address here to receive<br/>the monthly TMS Software alerts.</p>
+
+					<form action="https://www.tmssoftware.com/site/regalert.asp" method="post" onSubmit="return validateAlert()">
+						<fieldset>
+							<input type="email" name="ALERTEMAIL" id="ALERTEMAIL" placeholder="Your e-mail address"/>
+							<input type="hidden" name="rsub" value="subscribe" id="subscription1">
+							<button class="btn btn-primary button-send">Send<i class="tms-btn-dot tms-btn-dot-light-bg"></i></button>
+						</fieldset>
+					</form>
+					<ul class="nav navbar-nav">
+						<li><a href="http://www.tmssoftware.com/site/feed" title="RSS Feed" target="_blank"><img src="https://www.tmssoftware.com/site/img/icons/rss.png" width="37" height="37" alt="RSS"/></a></li>
+						<li><a href="http://twitter.com/TMSsoftwareNews" title="Twitter" target="_blank"><img src="https://www.tmssoftware.com/site/img/icons/twitter.png" width="37" height="37" alt="Twitter"/></a></li>
+						<li><a href="http://www.facebook.com/TMSsoftware?v=wall" title="Facebook" target="_blank"><img src="https://www.tmssoftware.com/site/img/icons/facebook.png" width="37" height="37" alt="Facebook"/></a></li>
+						<li><a href="http://www.linkedin.com/groups?gid=4339358&trk=hb_side_g" title="LinkedIn" target="_blank"><img src="https://www.tmssoftware.com/site/img/icons/linkedin.png" width="37" height="37" alt="LinkedIn"/></a></li>
+
+						<li><a href="https://www.youtube.com/user/tmssoftwareTV" target="_blank"><img src="https://www.tmssoftware.com/site/img/icons/youtube.png"  width="37" height="37" alt="YouTube"></a></li>
+
+						<li><a href="https://plus.google.com/115416141173053989087/posts" title="Google+" target="_blank"><img src="https://www.tmssoftware.com/site/img/icons/googleplus.png" width="37" height="37" alt="Google+"/></a></li>
+
+					</ul>
+				</div>
+			</div>
+		</section>
+	</footer>
+
