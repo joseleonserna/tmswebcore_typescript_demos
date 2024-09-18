@@ -1,0 +1,9 @@
+import { Application } from "@tmssoftware/webcore/WEBLib.Forms"
+import { TForm1, Form1 } from "./UPWACalc"
+
+{
+   Application.Initialize();
+   Application.MainFormOnTaskBar = true;
+   Application.CreateForm(TForm1, {get: () => globalThis.Form1, set: (value: any) => globalThis.Form1 = value});
+   Application.Run();
+}
